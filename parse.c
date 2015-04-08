@@ -103,6 +103,8 @@ int main(int argc, char **args)
 	int pNum_2 = 0;
 	int ret_compare = 0;
 
+	printf("PARTITION:\n\n");
+
 	pNum_1 = parse_procpartinfo();
 	pNum_2 = parse_otascatter();
 
@@ -116,4 +118,3 @@ int main(int argc, char **args)
 
     return 0;
 }
-
